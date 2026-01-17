@@ -14,9 +14,9 @@ import battlefactory.dto.CaptureSet;
 
 public class CaptureService {
 
-	/*Main method that takes all the files in the arguments and reads them, to them write their parsed content into the file inputted as
+	/*Main method that takes all the files in the arguments and reads them, to then write their parsed content into the file inputted as
 	the last argument. The input files must be CSV files with the following columns:
-	Capture	Ability Name	Ability Number	Item	Move1	Move2	Move3	M20.ove4	Nature	HP EVS	ATK EVS	DEF EVS	SPA EVS	SPDEF EVS	SPE EVS
+	Capture	Ability Name	Ability Number	Item	Move1	Move2	Move3	Move4	Nature	HP EVS	ATK EVS	DEF EVS	SPA EVS	SPDEF EVS	SPE EVS
 	The output format is the one indicated in CaptureSet's toString() method.
 	*/
 	public static void main (String[] args) {
